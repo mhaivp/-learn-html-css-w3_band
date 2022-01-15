@@ -10,6 +10,10 @@ html {
 
 #main {}
 
+.clear {
+    clear: both;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -145,6 +149,26 @@ html {
     font-size: 15px;
     line-height: 1.4;
     text-align: justify;
+}
+
+#content .member-list {
+    padding: 47px 0;
+    text-align: center;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.3333%;
+}
+
+#content .member-name {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    border-radius: 4px;
 }
 
 #footer {}
